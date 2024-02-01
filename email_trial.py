@@ -22,5 +22,9 @@ def get_message(mail,id):
     response = requests.get(f"https://www.1secmail.com/api/v1/?action=readMessage&login={mail[0]}&domain={mail[1]}&id={id}")
     message = json.loads(response.text)
     return message
-print(get_messages_arr("3fy9gu3mmb@laafd.com"))
-# print(get_message("rdrgsr9h@vjuum.com",928360623))
+if __name__ == "__main__":
+
+    # print(get_mail(1))
+    print(get_messages_arr("l6pprdkj@ezztt.com"))
+    print(get_message("l6pprdkj@ezztt.com",942332370))
+#button Enter code manually<strong>682582</strong>
